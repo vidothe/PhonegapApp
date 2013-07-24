@@ -1,0 +1,129 @@
+@font-face {
+	font-family: "MyriadPro";
+	src: url("../fonts/MyriadPro-Bold.eot");
+	src: url("../fonts/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/MyriadPro-Bold.woff") format("woff"),
+         url("../fonts/MyriadPro-Bold.ttf") format("truetype"),
+         url("../fonts/MyriadPro-Bold.svg#MyriadPro") format("svg");
+}
+@font-face {
+	font-family: "TrajanPro";
+	src: url("../fonts/TrajanPro-Bold.eot");
+	src: url("../fonts/TrajanPro-Bold.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/TrajanPro-Bold.woff") format("woff"),
+         url("../fonts/TrajanPro-Bold.ttf") format("truetype"),
+         url("../fonts/TrajanPro-Bold.svg#TrajanPro") format("svg");
+}
+
+/* reset & default */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0; padding: 0; border: 0; outline: 0; background: transparent; font-size: 100%; vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {background: #ccc; color: #eec99c; font-size: 11px; line-height: 1; font-family:TrajanPro, Tahoma, Geneva, sans-serif}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom: 1px dotted; cursor: help;}
+table {border-collapse: collapse; border-spacing: 0;}
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+h1 {font-size: 20px;}
+h2 {font-size: 18px;}
+h3 {font-size: 16px;}
+h4 {font-size: 14px;}
+h5 {font-size: 12px;}
+a {color: #000; text-decoration: none;}
+a:hover {color: #ED9C00}
+:focus {outline: 0;}
+.hidden {display: none !important;}
+/* Layout */
+.container{
+	width:1920px; height:1080px; overflow:hidden
+	transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	-moz-transform-origin: 0% 0%;
+	-webkit-transform-origin: 50% 0%;
+	-o-transform-origin: 50% 0%;
+}
+.high-light-1{overflow:hidden; background:#000}
+.img-1{position:absolute; top:0; left:0}
+.img-2{position:absolute; bottom:0; right:0}
+.img-3{position:absolute; bottom:0; left:0}
+.img-4{position:absolute; bottom:-47px; right:0}
+/* block-1 */
+.block-1{width:525px; height:566px; float:left; position:relative; margin-right:3px}
+.block-1 > li{display:block; position:absolute; top:0; left:0}
+.block-1 .price{color:#000; font-size:52px; font-family:MyriadPro; font-weight:bold; position:absolute; bottom:60px; left:156px; z-index:1; display:block; width:200px; text-align:center}
+.block-1 article {background: #b02329; padding: 10px; width: 505px; height: 546px;}
+.block-1 article h3 {padding-bottom: 5px;}
+.block-1 article p {padding: 5px; line-height: 18px;}
+/* block-2 */
+.block-2{width:1392px; float:left; background-color:#000}
+/* info-1 */
+.info-1{overflow:hidden}
+.info-1 .content{width:680px; height:84px; float:left; margin-left:15px; position:relative; text-align:right}
+.info-1 .content h2{font-size:28px; line-height:30px; padding:20px 10px 0 0}
+.info-1 .text-1{font-size:21px; line-height:23px; display:block}
+.info-1 .text-2{font-size:12px; line-height:15px; display:block; margin-top:4px}
+.info-1 .padd-1{padding-right:60px; width:617px}
+.info-1 .padd-2{padding-right:180px; width:350px}
+/* lst-product */
+.lst-product{overflow:hidden}
+.lst-product li, .item{float:left; width:334px; height:232px; overflow:hidden; margin:0 0 12px 14px; position:relative; background:#aa2327 url(../images/bgd-6.png) no-repeat 0 0; padding:3px 0 0}
+	/* bgd-* */
+	.item.bgd-1{background:url(../images/bgd-1.png) no-repeat 0 0}
+	.item.bgd-2{background:url(../images/bgd-2.png) no-repeat 0 0}
+	.item.bgd-3{background:url(../images/bgd-3.png) no-repeat 0 0}
+	.item.bgd-4{background:url(../images/bgd-4.png) no-repeat 0 0}
+	.item.bgd-5{background:url(../images/bgd-5.png) no-repeat 0 0}
+	
+.item .number{background:url(../images/bgd-number.png) no-repeat 100% 0; width:32px; height:38px; font-size:28px; line-height:30px; font-weight:bold; display:block; padding:7px 0 0 0; position:absolute; top:9px; left:0}
+.item h3{border-top:1px solid #fcbfa2; border-bottom:1px solid #fcbfa2; overflow:hidden; padding:5px 0 3px 40px; position:relative; z-index:1}
+.item h3 .name{width:146px; float:left; font-size:23px; line-height:23px; text-transform:uppercase; text-align:right}
+.item h3 .price{width:137px; float:left; font-size:29px; line-height:33px; padding:7px 0 0 10px}
+/* block-3 */
+.block-3{width:626px; height:484px; float:left; overflow:hidden; background:#b02329 url(../images/bgd-7.png) no-repeat 0 0; padding:7px 0 0; position:relative; margin-top:11px}
+.block-3 header{border-top:1px solid #eec99c; border-bottom:1px solid #eec99c; padding:5px 0 1px; font-size:35px; line-height:38px; text-align:center; font-weight:bold}
+
+.block-3 .caption{background-color:#8b4222; background:rgba(116, 80, 32, 0.7); display:inline-block; padding:10px 20px; font-size:14px; line-height:17px; text-transform:uppercase; position:absolute; text-shadow:2px 2px 2px #000;}
+/* info-2 */
+.info-2{width:570px; margin:17px auto 0; position:relative; z-index:1}
+.info-2 li{overflow:hidden; border-top:1px solid #eec99c; font-size:24px; line-height:26px; font-weight: bold; padding:3px 0}
+.info-2 li:first-child{border:none}
+.info-2 li .price{float:right}
+/* block-4 */
+.block-4{overflow:hidden; margin-top:11px}
+.block-4 .info-2.width-1{width:322px; margin:15px 0 0 35px}
+.block-4 .info-2.width-2{width:140px; margin:17px 0 0 37px}
+.block-4 .info-2.width-2 li{font-size:24px}
+.block-4 .info-2.width-3{width:330px; float:left; margin:10px 0 0 35px}
+.block-4 figcaption{background-color:#8b4222; background:rgba(116, 80, 32, 0.7); display:inline-block; padding:10px 20px; font-size:15px; line-height:18px; text-transform:uppercase; position:absolute; text-shadow:2px 2px 2px #000;}
+/* item-1 */
+.item-1{width:626px; height:256px; position:relative; overflow:hidden; margin:0 0 0 21px; background:#b1242a url(../images/bgd-11.png) no-repeat 0 0; float:left; padding:7px 0 0}
+	/* bgd-* */
+	.item-1.bgd-1{background:url(../images/bgd-8.png) no-repeat 0 0}
+	.item-1.bgd-2{background:url(../images/bgd-9.png) no-repeat 0 0; overflow:visible}
+	.item-1.bgd-3{background:url(../images/bgd-10.png) no-repeat 0 0}
+.item-1 header{border-top:1px solid #fcbfa2; border-bottom:1px solid #fcbfa2; padding:3px 0; font-size:37px; line-height:40px; text-align:center; font-weight:bold}
+.item-1 header span{display:inline-block}
+.item-1 header span:first-letter{font-size:120%}
+
+.item-2{width:620px; height:260px; position:relative; margin:15px 0 0 15px; background:#b1242a; float:left}
+.item-1.height-1{height:202px; margin-top:18px}
+.item-1 .content{background-color:#010101; margin-top:15px; padding:10px 0 0; height:130px}
+.price-1{background-color:#ba242b; width:122px; height:94px; display:block; border-radius:50%; font-size:41px; line-height:43px; text-align:center; padding:28px 0 0; float:left; margin-left:80px}
+.price-1 .small-text{display:block; font-size:16px; line-height:16px; width:100px; margin:0 auto}
+
